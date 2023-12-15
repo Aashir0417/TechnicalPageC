@@ -1,0 +1,129 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel='stylesheet' href='styles.css'></link>
+  <title>JavaScript vs Java</title>
+</head>
+<body>
+<nav id='navbar'>
+  <header id='con'>Content</header>
+   <a class='nav-link' href='#JavaScript_vs_Java'>JavaScript vs Java</a>
+  <a class='nav-link' href='#Js_vs_Java_Variables'>Js vs Java Variables</a>
+  
+<a class='nav-link' href='#JS_vs_Java_Functions'>JS vs Java Functions</a>
+<a class='nav-link' href='#JavaScript_vs_Java_DataTypes'>JavaScript vs Java DataTypes</a>
+<a class='nav-link' href='#Which_is_Better?'>Which is Better?</a>
+</nav>
+
+<main id='main-doc'>
+  <section class='main-section' id='JavaScript_vs_Java'>
+    <header>JavaScript vs Java</header>
+    <p>here are a few thing about Javascript and Java:</p>
+    <l>
+      <li>Javascript works in both Frontend and backend</li>
+       <li>Javascript is Object oriented</li>
+        <li>Designed By Brendan Eich in only 1 week!!</li>
+       <br>
+        <li>Java Works in Backend</li>
+      <li>Java is also Object oriented</li>
+      <li>Design by Oracle Corporation</li>
+     
+    </ul>
+
+    <p>An Example of JS and Java Code</p>
+    <p>Javascript</p>
+    <code><!-- JavaScript: --> Console.log('Hello World!')</code>
+<BR>
+   <p>Java</p>
+    <code>System.out.println("Hello, World!");</code>
+  </section>
+  <br>
+
+  <section class='main-section' id='Js_vs_Java_Variables'>
+     <header>Js vs Java Variables</header>
+     <p>Variables are containers used for storing <strong>Data</strong></p>
+
+     <p>Here is an Example</p>
+  <p>JavaScript</p>
+   
+     <code>Let Variable='Hello World!'<code>
+<br>
+<p>Java</p>
+        <code>type variableName = value; <code>
+  </section>
+
+  <section class='main-section' id='JS_vs_Java_Functions'>
+     <header>JS vs Java Functions</header>
+
+     <p>Check this <a href='https://reime005.medium.com/from-java-to-javascript-functions-and-scopes-9bea24c7cfb#:~:text=In%20JavaScript%2C%20every%20function%20is,Java%20being%20more%20object%20oriented.'>link</a> to learn about Js and Java Functions</p>
+  </section>
+
+  <section class='main-section' id='JavaScript_vs_Java_DataTypes'>
+     <header>JavaScript vs Java DataTypes</header>
+     <p>Check this <a href='https://javascript.info/types'>link</a> to learn about Js and Java Functions</p>
+  </section>
+  
+  <section class='main-section' id='Which_is_Better?'>
+     <header>Which is Better?</header>
+     <p>According to the internet, JavaScript is Better</p>
+  </section>
+</main>
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+#main-doc {
+  text-align:right;
+  
+}
+
+a {
+  display:block;
+  text-decoration:none;
+  
+}
+
+
+#navbar {
+    position: fixed;
+  max-width: 280px;
+  top: 0px;
+  left: 0px;
+  width: 240px;
+  height: 100%;
+  border-right: solid;
+  border-color: grey;
+ 
+  
+  }
+
+#con,.nav-link {
+  font-size:30px;
+  padding:5px
+}
+#main-doc header {
+  font-size:26px
+}
+@media only screen and(max-width:400px) {
+  #main-doc {
+    margin-left:-10px
+  }
+}
+
+
+
+li,p {
+  font-size:17px
+}
+
+
+
+** end of undefined **
+
